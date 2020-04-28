@@ -4,3 +4,5 @@
 A university project, introduction and practice of HTML and CSS.
 
 Add three audio files in the 'Audio' folder to test audio within website.
+
+open 'index.html' in HTML folder.
