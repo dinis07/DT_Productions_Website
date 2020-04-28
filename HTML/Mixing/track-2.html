@@ -1,0 +1,117 @@
+<html>
+	<head>
+
+		<link rel="shortcut icon" href="../../Images/Logos/favicon-32x32.png">
+	</head>
+	<header class="header">
+		<title>DTP - Mixing &amp; Mastering</title>
+		<link rel="stylesheet" type="text/css" href="../../CSS/styles.css">
+		<link rel="stylesheet" type="text/css" href="../../CSS/audio-player.css">
+		<script type="text/javascript" src="../../CSS/js-styles.css"></script>
+		<script type="text/javascript" src="../../JS/jquery-1.10.2.min.js"></script>
+		<script type="text/javascript" src="../../JS/mediaelement-and-player.min.js"></script>
+
+
+		<div id="social-media">
+
+			<ul>
+				<li><a href="https://www.soundcloud.com/dinodin07" target="_blank"><img src="../../Images/Social_Media/Sound-cloud.png"></a></li>
+				<li><a href="https://instagram.com/dinodin07" target="_blank"><img src="../../Images/Social_Media/Instagram_logo.png"></a></li>
+				<li><a href="https://facebook.com/dinis.a.tavares" target="_blank"><img src="../../Images/Social_Media/facebook-icon-logo-vector.png"></a></li>
+
+			</ul>
+
+
+		</div>
+
+		<div id="website-name-position">
+
+			<a id="website-logo" href="../index.html"><img src="../../Images/Logos/website-logo.png"></a>
+
+		</div>
+
+		<div id="menu">
+			<ul>
+				<li id="home"><a href="../index.html"> Home </a> </li>
+				<li><a onmouseover="menu()" class="dropbtn" href="../production.html"> Production </a></li>
+				<li><a href="../gallery.html">Gallery</a></li>
+				<li><a href="../contact.html">Contact</a></li>
+			</ul>
+		</div>
+
+		<div id="myDropdown" class="sub-menu-content" >
+			<ul> 
+				<li><a href="../Mixing/mixing.html">Mixing &amp; Mastering</a></li>
+				<li><a href="../vocal_tuning/vocal.html">Vocal Tuning</a></li>
+				<li><a href="composition.html">Composition</a></li>
+			</ul>
+		</div>
+
+	</header>
+
+	<body class="body">
+
+		<a id="previous-track" href="track-1.html"><img src="../../Images/Tracks/arrow-203-512-left.png"></a>
+		<a id="next-track" href="track-3.html"><img src="../../Images/Tracks/arrow-203-512-right.png"></a>
+
+		<div class="track-content">
+			<h1> Drum Programming - Assignement 1 </h1>
+			<img src="../../Images/Tracks/mixing/track_2.png">
+			<p> The assignment given contained 4 tracks which consisted of vocal, bass, guitar and a synth track. The task was to create a drum track for the given multi-tracks, to show our ability to create a a beat for any given track.  </p>
+			<p>To create the track I started off with the hi-hats, giving the a back bone to start off with. The high hats were looped to the end at first so that I could start layering other instruments of the drum kit such as the kick drum.</p>
+			<p>Once the kick drum was layered I could start making some variations throughout the track, such as adding high toms, floor toms and cymbals. The whole drum track had a general similar beats in the verses, and different beats for the choruses. Throughout the track there are other instrument such as the cowbel was added to enhance the track.  </p>
+
+		</div>
+
+
+
+		<center>
+
+			<div class="audio-player">
+				<h2>Drum Programming - Assignement 1</h2>
+				<p> Drum programme: Battery 4 Native Instruments</p>
+				<p> DAW: Protools 12</p>
+				<p> Software: Apple iMac</p>
+				<img src="../../Images/Tracks/mixing/track_2.png">
+				<audio id="audio-player" src="../../Audio/Song_%20(21.01.17)_1.wav" type="audio/mp3" controls="controls"></audio>
+
+			</div>
+
+
+			<!--			https://designshack.net/articles/css/custom-html5-audio-element-ui/-->
+			<script type="text/javascript">
+				$(function(){
+					$('#audio-player').mediaelementplayer({
+						alwaysShowControls: true,
+						features: ['playpause','progress','volume'],
+						audioVolume: 'horizontal',
+						audioWidth: 450,
+						audioHeight: 70,
+					});
+				});
+			</script>
+
+
+
+
+
+
+		</center>
+
+	</body>
+	<footer id="footer">
+
+		<center>
+			<ul id="footer-menu">
+				<li><a href="../index.html">home</a></li> |
+				<li><a href="../about_us.html">about us</a></li> |
+				<li><a href="../terms_and_conditions.html">terms &amp; conditions</a></li> |
+				<li><a href="../contact.html">contact us</a></li>
+			</ul>
+		</center>
+
+	</footer>	
+
+
+
+</html>
